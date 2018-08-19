@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = coiledcoil
+SPHINXPROJ    = CoiledCoil
 SOURCEDIR     = .
 BUILDDIR      = _build
 
