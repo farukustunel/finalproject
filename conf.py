@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Coiled Coil'
-copyright = '2018, Faruk ÃœstÃ¼nel'
-author = 'Faruk ÃœstÃ¼nel'
+copyright = '2018, Faruk Üstünel'
+author = 'Faruk Üstünel'
 
 # The short X.Y version
 version = ''
@@ -55,7 +55,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
 
 # The master toctree document.
 master_doc = 'index'
@@ -136,7 +136,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'CoiledCoil.tex', 'Coiled Coil Documentation',
-     'Faruk ÃœstÃ¼nel', 'manual'),
+     'Faruk Üstünel', 'manual'),
 ]
 
 

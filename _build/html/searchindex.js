@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["README","index"],envversion:53,filenames:["README.md","index.rst"],objects:{},objnames:{},objtypes:{},terms:{finalproject:0,index:1,modul:1,page:1,search:1},titles:["&lt;no title&gt;","Welcome to Coiled Coil\u2019s documentation!"],titleterms:{coil:1,document:1,indic:1,tabl:1,welcom:1}})
