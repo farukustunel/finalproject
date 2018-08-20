@@ -3,12 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Coiled Coil's documentation!
-=======================================
+Prediction of Coiled Coil Region in S.Pombe 
+=========================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   	Brief Introduction to Protein Structure <src/chapter0.rst>
+   	Finding Undetermined 3D Structure of Proteins
+   	Using MultiCoil2 Command Line Tools for Predicting Coiled Coil Region
+   			
 
 
 
