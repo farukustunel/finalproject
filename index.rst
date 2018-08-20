@@ -8,10 +8,9 @@ Prediction of Coiled Coil Region in S.Pombe
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-   	Brief Introduction to Protein Structure <src/chapter0.rst>
-   	Finding Undetermined 3D Structure of Proteins
-   	Using MultiCoil2 Command Line Tools for Predicting Coiled Coil Region
+   Brief Introduction to Protein Structure <src/chapter0.rst>
+   Finding Undetermined 3D Structure of Proteins
+   Using MultiCoil2 Command Line Tools for Predicting Coiled Coil Region
    			
 
 
