@@ -15,9 +15,3 @@ Prediction of Coiled Coil Region in S.Pombe
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
