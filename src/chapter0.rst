@@ -12,7 +12,7 @@ Secondary structure can be divided three types which we can call α-helix, ß-sh
 
 **Coiled Coil** structures contain two or more α-helices . If the distance between two α-helices is less than 25 nucleotides, they will bound together and enclose each other. This supersecondary form of protein is called coiled-coil.Examples of proteins with coiled coil regions include myosins, tropomyosins and intermediate filaments.
 
-.. image:: _static/F1large.jpg
+.. image:: _static/img96.jpg
 
 	
 
