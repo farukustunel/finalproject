@@ -1,11 +1,12 @@
+
 Finding Undetermined 3D Structure of S.Pombe Proteins
 =====================================================
 
-1.Go to `https://www.uniprot.org <https://www.uniprot.org>`_.
-2.Click search bar on the top of the page and type **pombase** after that click search button.
-3.Show the results and click download button, select **Download all**, **Format:Text** and **compressed** after that click **Go** button.
-4.Uncompressed the zip file and keep it on local for processing.
-5.You can find the accession number for undetermined 3D structure of S.Pombe proteins with the  python code below.
+* Go to `https://www.uniprot.org <https://www.uniprot.org>`_.
+* Click search bar on the top of the page and type **pombase** after that click search button.
+* Show the results and click download button, select **Download all**, **Format:Text** and **compressed** after that click **Go** button.
+* Uncompressed the zip file and keep it on local for processing.
+* You can find the accession number for undetermined 3D structure of S.Pombe proteins with the  python code below.
 
   .. code-block:: python
 
