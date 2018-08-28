@@ -1,0 +1,174 @@
+
+             ****************************** 
+             **   Install.doc for:       **
+	     ******************************	
+
+             ******************************
+             **                          **
+             **  PAIRCOIL (version 1.0)  **
+             **      Copyright 1995 MIT  **
+             ******************************  
+
+
+The paircoil program is described in:
+
+Bonnie Berger, David B. Wilson, Ethan Wolf, Theodore Tonchev, 
+	Mari Milla, and Peter S. Kim, "Predicting Coiled Coils by Use 
+	of Pairwise Residue Correlations", Proceedings of the National 
+	Academy of Science USA, vol 92, aug 1995, pp. 8259-8263.
+
+
+
+The paircoil program predicts the location of coiled-coil regions in 
+amino acid sequences.   Current versions are available for SUN, SGI,  
+DEC_alpha and DEC_mips compatable machines.  A version for the Macintosh 
+is in production, but is not available yet.
+
+This document contains information on obtaining and installing a copy
+of the paircoil program on your system.
+Please read the file "Instruction.doc" that accompanies the program 
+before running paircoil.
+
+
+
+When using the paircoil program in your research, please cite the paper
+listed above.   
+
+
+If you obtain the paircoil program without having sent mail to 
+paircoil@theory.lcs.mit.edu, please do so in order to be placed on 
+a mailing list for notification of future paircoil modifications.
+
+For further correspondence please email paircoil-help@theory.lcs.mit.edu
+
+******************************************************************************
+
+
+                       GETTING THE PROGRAM
+
+To install a copy of the paircoil program you must first obtain a copy
+of the file "PAIRCOIL.tar" in your home directory.  You should then 
+follow the rest of the instructions in this document (Install.doc).
+There are two ways to obtain PAIRCOIL.tar:
+
+	1.  Through the worldwide web at address:
+	    http://theory.lcs.mit.edu/~bab/paircoil.html
+
+	    Follow the instructions at that site for downloading 
+	    the file.
+
+	2.  Via anonymous ftp from:
+		address:  theory.lcs.mit.edu
+	        directories:  /pub/paircoil/SUN   or   
+	                      /pub/paircoil/SGI   or
+                              /pub/paircoil/DEC_mips
+	        	      /pub/paircoil/DEC_alpha
+	          depending on your machine type.
+	    (For those of you unfamilar with ftp, an example of what 
+	     to do is given at the end of this document).
+
+	IMPORTANT:  Make sure you take the PAIRCOIL.tar that is 
+	            compatable with your system type (SUN, SGI, 
+	            DEC_alpha, or DEC_mips).
+	            The program will not work if it is not designed 
+                    for your machine.
+
+
+Once you have a copy of PAIRCOIL.tar in your home directory, type the 
+command:
+	"tar -xvf PAIRCOIL.tar"
+
+This command creates a directory ~/PAIRCOIL containing the 
+following files:
+
+0.  The documents:   Install.doc and Instruction.doc
+1.  The program:     paircoil
+2.  The file:        paircoil_config
+3.  The data files:
+	             cctb.Z, genbnk.Z, and likelihoods 
+5.  A version of the pir sequence data base:  
+	             sampled-pir.seq.Z
+6.  The example sequence file:   test.seq
+
+
+
+*******************************************************************************
+
+Before running the program make sure you read the documentation in 
+"Instruction.doc".
+
+You should also have a look at the file "paircoil_config".
+This file contains information that the program requires,
+including where your output files will be written.  Detailed 
+information on the contents of "paircoil_config" and how you
+may want to modify its contents to control the program is 
+available in "Instruction.doc".   If you make modifications,
+make sure that the locations of files listed in "paircoil_config"
+are correct. 
+
+NOTE that the paircoil program MUST be able to locate the 
+"paircoil_config" file in order to run.
+By default it looks for "~/PAIRCOIL/paircoil_config".
+
+You can also move the "paircoil_config" file to any location
+(for example, if you want to have multiple copies of 
+"paircoil_config",  each specifying different ouput files and 
+options for running the program).  
+However, you must then set the environment variable PAIRCOIL_CONFIG 
+to give the file's location.
+    
+   For example: 
+      If you move the paircoil_config file into:
+	   "~/paircoil_config"
+      then before running the program you would type:
+	   "setenv PAIRCOIL_CONFIG ~/paircoil_config".
+
+      You can also put this setenv command in your .login file, so 
+      that you do not have to set it each time you logon.
+
+
+
+
+In any case, read the "Instruction.doc" file, and then you are ready to 
+run your copy of paircoil. 
+
+
+
+After reading "Instruction.doc", you can type:
+	"cd ~/PAIRCOIL"
+	"paircoil test.seq"
+for a test run of the paircoil program.
+The output files:
+	"~/PAIRCOIL/test.log" and "~/PAIRCOIL/test.ps"
+will be created.
+
+
+	   
+*******************************************************************************
+
+
+
+EXAMPLE of how to retrieve the files via anonymous ftp:
+	(This example is for a SUN user.  Substitute SGI, DEC_alpha,
+	 or DEC_mips for SUN in what follows if that is your machine 
+         type).
+
+1.  Log on to your own machine.  Make sure you are in the HOME directory
+    by typing "cd".
+
+2.  Type "ftp theory.lcs.mit.edu" and log on as "anonymous".
+
+3.  Type "cd /pub/paircoil/SUN". 
+	 (replace SUN with SGI or DEC if you need the SGI or DEC versions)
+
+4.  Type the following commands:
+          "binary"
+	  "get PAIRCOIL.tar"
+    Then exit ftp by typing "quit".
+
+5.  Continue with the instruction given earlier in this document.
+
+*******************************************************************************
+	   
+
+
