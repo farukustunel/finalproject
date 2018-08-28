@@ -2,12 +2,14 @@ Brief Introduction to Protein Structure
 =======================================
 
 .. Why protein structure is important
+
 Proteins are the building blocks of the cells. They are the bricks of their structure, they catalyze the chemical reactions of the metabolism and they execute the program encoded in the DNA. To understand how cells work, and to develop any medical or biotechnogical application, we need to know the function of each protein. In ultimate instance/Essentially, the protein function depends on its 3D structure. Therefore, determining the protein structure is one of the key/essential/important steps/research-areas/interest in Molecula Biology.
 
 Proteins are crucial for our body and they carry out numerous roles within biological processes such as, transporting molecules, 
 catalysing metabolic reactions, gene expression, DNA replication, cellular comminuciation, molecular recognition, etc.
 
 .. What is "protein structure"
+
 If we look at the hierarchy of protein structure, we will encounter different levels, the first level of this hierarchy which is called 
 **primary structure** consist of amino acids sequence in polypeptide chain.
 
